@@ -1,0 +1,48 @@
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f7f9fb;
+}
+
+.otp-box {
+  background: #fff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.otp-box h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  background-color: #17a2b8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #138496;
+}
