@@ -12,7 +12,6 @@ app.use(express.json());
 app.use('/api', authRoutes);
 
 const path = require('path');
-const path = require('path');
 
 // Serve frontend static files
 app.use(express.static(path.join(__dirname, '../client/build')));
